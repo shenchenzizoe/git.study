@@ -1,7 +1,9 @@
 public class HelloWorld {
-    private int myname;
+    private int name;
+    private int phoneNumber;
 
-    public HelloWorld(int myname) {
-        this.myname = myname;
+    public HelloWorld(int name, int phoneNumber) {
+        this.name = name;
+        this.phoneNumber = phoneNumber;
     }
 }
